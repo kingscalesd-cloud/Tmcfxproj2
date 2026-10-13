@@ -6,7 +6,7 @@
 - `login.html`, `login.css`, `login.js`: Google login with the existing puzzle interaction.
 - `dashboard.html`, `dashboard.css`, `dashboard.js`: member dashboard, account deletion flow, plan status and expiration countdown UI.
 - `firebase-config.js`: **the single place** to enter the Firebase Web App configuration.
-- `assets/tmc-fx-academia-logo.png` and `tmc-fx-academia-logo.webp`: existing logo assets used by the landing page and member pages.
+- `assets/tmc-fx-academia-logo.png` and `assets/tmc-fx-academia-logo.webp`: existing logo assets used by the landing page and member pages.
 
 ## Navigation
 1. Landing page `Get started` buttons open `signup.html`.
