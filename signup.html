@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07180f">
+  <meta name="description" content="Create your TMC FX Academia community account.">
+  <title>Create your account — TMC FX Academia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <div class="market-motion" aria-hidden="true">
+    <div class="price-line line-one"></div><div class="price-line line-two"></div>
+    <div class="candles candles-one"></div><div class="candles candles-two"></div>
+    <div class="money money-one">＄</div><div class="money money-two">＄</div><div class="money money-three">＄</div>
+    <div class="chart-label label-one">EUR/USD <b>+1.24%</b></div>
+    <div class="chart-label label-two">MARKET STRUCTURE <b>● LIVE VISUAL</b></div>
+  </div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="TMC FX Academia home">
+      <img class="brand-logo" src="tmc-fx-academia-logo.webp" alt="TMC FX Academia">
+    </a>
+    <p class="top-note">A community built on <strong>skill, discipline &amp; integrity.</strong></p>
+    <a class="back-link" href="index.html">Back to home <span>↗</span></a>
+  </header>
+
+  <main class="page-shell">
+    <section class="intro">
+      <p class="eyebrow"><span></span> YOUR NEXT CHAPTER STARTS HERE</p>
+      <h1>Learn the market.<br><em>Master your process.</em></h1>
+      <p class="intro-copy">Join a learning community focused on informed decisions, disciplined practice and responsible participation in the forex market.</p>
+      <div class="trust-points">
+        <div><span class="point-icon">01</span><p><b>Learn with purpose</b><small>Build your understanding one lesson at a time.</small></p></div>
+        <div><span class="point-icon">02</span><p><b>Protect your integrity</b><small>Respect other members and the community rules.</small></p></div>
+        <div><span class="point-icon">03</span><p><b>Own your decisions</b><small>Trading carries risk; outcomes are never guaranteed.</small></p></div>
+      </div>
+      <div class="risk-note"><span>!</span><p><b>Market risk reminder</b><br>Forex trading can lead to substantial losses. Education is not financial advice, and no profit is guaranteed.</p></div>
+    </section>
+
+    <section class="signup-card" aria-labelledby="signup-title">
+      <div class="card-topline"><span>MEMBERSHIP REGISTRATION</span><span class="secure"><i></i> SECURE ACCESS</span></div>
+      <div class="card-brand"><img class="card-brand-logo" src="tmc-fx-academia-logo.webp" alt="TMC FX Academia logo"></div>
+      <h2 id="signup-title">Create your account</h2>
+      <p class="card-subtitle">Start with Google, then choose your community username.</p>
+
+      <div class="or-line"><span>THEN PERSONALIZE YOUR PROFILE</span></div>
+      <form id="signup-form" novalidate>
+        <label for="username">Choose your username</label>
+        <div class="username-wrap"><span>@</span><input id="username" name="username" type="text" minlength="3" maxlength="20" pattern="[A-Za-z0-9_]+" autocomplete="nickname" placeholder="e.g. MarketMind" required><span class="input-state" id="username-state"></span></div>
+        <p class="field-help">3–20 characters. Use letters, numbers or underscores. You can change it later if your account settings allow it.</p>
+
+        <div class="consent-box">
+          <label class="check-row"><input id="age-consent" type="checkbox" required><span class="custom-check"></span><span>I confirm that I am <strong>18 years of age or older</strong>.</span></label>
+          <label class="check-row"><input id="terms-consent" type="checkbox" required><span class="custom-check"></span><span>I have read and agree to the <button class="text-link" type="button" data-open="terms-dialog">Terms &amp; Conditions</button>.</span></label>
+          <label class="check-row"><input id="rules-consent" type="checkbox" required><span class="custom-check"></span><span>I agree to follow the <button class="text-link" type="button" data-open="rules-dialog">Community Rules</button> and treat members respectfully.</span></label>
+        </div>
+
+        <button class="google-button" id="google-signin" type="button">
+        <svg aria-hidden="true" viewBox="0 0 48 48" width="21" height="21"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z" transform="translate(0 4)"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.76 7.18l7.73 6C44.42 37.98 46.98 31.84 46.98 24.55z" transform="translate(0 0)"/><path fill="#FBBC05" d="M10.53 28.59A14.4 14.4 0 0 1 9.75 24c0-1.59.27-3.13.76-4.59l-7.98-6.2A23.9 23.9 0 0 0 0 24c0 3.88.93 7.55 2.56 10.78l7.97-6.19z" transform="translate(0 0)"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.91-5.8l-7.73-6c-2.14 1.44-4.89 2.3-8.18 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z" transform="translate(0 0)"/></svg>
+        <span>Continue with Google</span><span class="button-arrow">→</span>
+      </button>
+      <p class="google-help">Google sign-in is the only registration method.</p>
+        <p class="form-error" id="form-error" role="alert" aria-live="polite"></p>
+        <button class="create-button" type="submit" id="create-account" disabled><span>Agree &amp; create account</span><span>↗</span></button>
+        <p class="form-footnote">You must sign in with Google and check all three boxes before registration can continue.</p>
+      </form>
+      <p class="login-prompt">Already a member? <a href="login.html">Log in</a></p>
+    </section>
+  </main>
+
+  <footer class="footer"><span>© <span id="year"></span> TMC FX Academia</span><span>TRAINING. MASTERING. CONQUERING.</span><a href="mailto:kingscalesd@gmail.com">Need help? Enquiry</a></footer>
+
+  <dialog class="legal-dialog" id="terms-dialog" aria-labelledby="terms-title">
+    <div class="dialog-head"><div><span class="eyebrow">PLEASE READ CAREFULLY</span><h2 id="terms-title">Terms &amp; Conditions</h2></div><button class="close-dialog" type="button" aria-label="Close terms">×</button></div>
+    <div class="legal-content">
+      <h3>1. About TMC FX Academia</h3><p>TMC FX Academia is an educational community intended to help members develop their understanding of the foreign-exchange market, market analysis, trading discipline and risk management. Our mission is to encourage informed learning, responsible practice and a respectful environment where people can improve their knowledge. Educational material is provided for learning and general information; it is not individualized financial, investment, tax or legal advice.</p>
+      <h3>2. Eligibility and account details</h3><p>You must be at least 18 years old to register. You agree to provide truthful information, use a username that does not impersonate another person or organization, and keep your Google account secure. You are responsible for activity carried out through your account. Do not share credentials or attempt to access another member's account.</p>
+      <h3>3. No guaranteed returns</h3><p>Forex and leveraged trading involve substantial risk and may not be suitable for everyone. You may lose some or all of the money you commit. Examples, lessons, testimonials and market illustrations are not promises of future results. TMC FX Academia does not guarantee profits, account growth, employment, or any particular trading outcome. Make independent decisions and seek qualified professional advice where appropriate.</p>
+      <h3>4. Fraud, impersonation and scams</h3><p>Scamming, phishing, fraudulent offers, fake investment schemes, impersonation, deceptive fundraising, and promises of guaranteed returns are prohibited. Never send money or disclose passwords, verification codes or sensitive financial details to someone claiming to represent the community without independently verifying the request. Report suspicious accounts, messages or offers promptly through our <a href="mailto:kingscalesd@gmail.com?subject=Community%20Enquiry%20%2F%20Scam%20Report">Enquiry button / support email</a> and include relevant details or evidence. Do not publicly post another person's private information.</p>
+      <h3>5. Respectful participation</h3><p>Bullying, harassment, threats, hate, discrimination, intimidation, doxxing, and insulting or humiliating other members are not allowed. Debate ideas respectfully; do not target people. Spam, disruptive promotion, malicious links, and repeated unwanted contact may also be removed.</p>
+      <h3>6. Moderation and consequences</h3><p>We may review reports, remove content, restrict access, suspend or permanently remove accounts that breach these terms or community rules. Where appropriate, we may warn a member first, but serious misconduct or fraud may result in immediate removal. Any registration or membership fee that is lawfully non-refundable under the clearly disclosed payment terms may be forfeited following a serious breach; this clause does not override applicable consumer-protection law or any refund rights that cannot legally be excluded. We will aim to apply rules fairly and proportionately.</p>
+      <h3>7. Intellectual property and content</h3><p>Course materials, branding and original community resources may not be copied, resold, republished or represented as your own without permission. You retain responsibility for content you submit and must have the rights needed to share it. We may remove material that infringes rights or violates these terms.</p>
+      <h3>8. Availability and changes</h3><p>We may update, pause or discontinue features for security, maintenance or operational reasons. These terms may be updated from time to time; material changes will be communicated through an appropriate channel where practicable. Continued use after an effective update means you accept the revised terms to the extent permitted by law.</p>
+      <h3>9. Contact and reporting</h3><p>For questions, complaints or scam reports, use the website's Enquiry button or email <a href="mailto:kingscalesd@gmail.com">kingscalesd@gmail.com</a>. Share only information necessary to explain the issue.</p>
+      <p class="legal-disclaimer">These draft terms are a practical starting point, not legal advice. Have them reviewed for your operating location and actual membership/payment model before launch.</p>
+    </div>
+    <div class="dialog-actions"><button class="outline-button close-dialog" type="button">Close</button><button class="gold-button accept-dialog" type="button" data-check="terms-consent">I agree to the terms</button></div>
+  </dialog>
+
+  <dialog class="legal-dialog" id="rules-dialog" aria-labelledby="rules-title">
+    <div class="dialog-head"><div><span class="eyebrow">OUR SHARED STANDARD</span><h2 id="rules-title">Community Rules</h2></div><button class="close-dialog" type="button" aria-label="Close rules">×</button></div>
+    <div class="legal-content">
+      <p>Every member helps shape the quality and safety of TMC FX Academia. By joining, you agree to:</p>
+      <ul><li><b>Be respectful.</b> Bullying, insults, harassment, threats and discriminatory conduct are prohibited.</li><li><b>Do not scam.</b> No fraud, fake investment offers, impersonation, phishing, or guaranteed-profit claims.</li><li><b>Report concerns.</b> Use the Enquiry button or email <a href="mailto:kingscalesd@gmail.com">kingscalesd@gmail.com</a> to report suspicious activity. Include context, and avoid spreading unverified allegations publicly.</li><li><b>Protect privacy.</b> Do not publish private information, credentials, phone numbers or personal financial details without consent.</li><li><b>Keep discussions constructive.</b> Share relevant learning, disagree with ideas respectfully, and avoid spam or unauthorized promotions.</li><li><b>Trade responsibly.</b> Do not pressure others to trade, deposit funds, copy signals, or follow your financial decisions. No outcome is guaranteed.</li><li><b>Accept moderation.</b> Rule-breaking content may be removed. Serious or repeated violations may lead to suspension or permanent removal. Any fee consequences are subject to the disclosed payment terms and applicable law.</li></ul>
+      <p>Help us keep the community focused on learning, accountability and integrity.</p>
+    </div>
+    <div class="dialog-actions"><button class="outline-button close-dialog" type="button">Close</button><button class="gold-button accept-dialog" type="button" data-check="rules-consent">I agree to the rules</button></div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="signup.js"></script>
+</body>
+</html>
